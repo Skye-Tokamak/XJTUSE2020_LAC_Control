@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_news"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/title_news"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_csdn"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/title_csdn"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_photo"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/title_photo"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_weather"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/title_weather"
+        app:showAsAction="ifRoom"/>
+
+</menu>
