@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/up"
+        android:textSize="80dp" />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/ok"
+        android:textSize="80dp" />
+    <Button
+        android:id="@+id/left"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/left"
+        android:textSize="80dp" />
+    <Button
+        android:id="@+id/right"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/right"
+        android:textSize="80dp" />
+    <Button
+        android:id="@+id/down"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/down"
+        android:textSize="80dp" />
+
+    <Button
+        android:id="@+id/kg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kg"
+        android:textSize="80dp" />
+    <Button
+        android:id="@+id/light"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="-120dp"
+        android:background="@drawable/close"
+        android:textSize="80dp" />
+
+
+</LinearLayout>
